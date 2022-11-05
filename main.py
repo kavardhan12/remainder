@@ -22,7 +22,7 @@ while True:
    
     
     
-    df = df[(df["Date"].dt.strftime("%d")==current_time.strftime("%d"))&(pd.datetime.now().strftime('%H:%M')=='08:20')]
+    df = df[(df["Date"].dt.strftime("%d")==current_time.strftime("%d"))&(pd.datetime.now().strftime('%H:%M')=='08:30')]
     
     
 
