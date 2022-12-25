@@ -1,5 +1,6 @@
 import pandas as pd
 import requests
+import datetime
 
 import time
 
@@ -17,6 +18,8 @@ while True:
     current_time = pd.datetime.now()
     
     print(pd.datetime.now().strftime('%H:%M:%S'))
+    print(datetime.date.today())
+    print(df["Date"].dt.date)
     
     
    
